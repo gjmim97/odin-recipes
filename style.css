@@ -8,6 +8,8 @@ h1 {
     text-align:center;
     font-weight: 800px;
     font-size: 32px ;
+    padding: 8px;
+    margin: 16px 8px auto;
 }
 
 h2 {
@@ -30,6 +32,7 @@ ul {
     font-size: 16px;
     font-style:italic;
     list-style: square;
+    margin:8px;
 }
 
 ol {
@@ -54,10 +57,12 @@ ol {
 }
 
 img {
+    box-sizing: border-box;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 250px;
+    height: 250px;
     border: 1px solid black;
     padding: 10px;
 }
